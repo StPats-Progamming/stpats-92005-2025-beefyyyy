@@ -5,27 +5,13 @@
 
 @font-face {
     font-family: "helvetica-bold";
-    src: url("./Assets/Fonts/helvetica/Helvetica\ Roman.ttf");
+    src: url("./Assets/Fonts/helvetica/Helvetica-Bold.ttf");
 }
 
-.button-container{
-    display: flex;
-    width: 90%;
-    margin: auto;
-    justify-content: space-between;
+@font-face {
+    font-family: "freight-text-pro-semibold";
+    src: url("./Assets/Fonts/freight-text-font-family/FreightTextProsemibold-Regular.ttf");
 }
-
-.button-container, button, a{
-    font-family: "helvetica", sans-serif;
-    padding: 5px 10px;
-    background: rgb(0 48 135);
-    color: white;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 
 body{
     background-color: white;
@@ -33,22 +19,101 @@ body{
     margin-right:60px;
 }
 
-.title-container{
-    display: grid;
-    grid-template-columns: auto 50px;
-    font-family: "helvetica-bold", sans-serif;
-    font-size: 24px;
+a{
     color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+footer{
+    font-family: sans-serif;
+}
+
+.border{
+    width: 1000px;
+    margin: auto;
+    border: 1px solid black;
+    border-bottom: 1px solid white;
+    background-color: white;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    width: 97%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.button{
     background-color: rgb(0 48 135);
-    text-align: center;
+    font-family: "helvetica-bold", sans-serif;
+    font-size: 16px;
     margin-top: 10px;
-    margin-left: 30%;
-    margin-right: 30%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 0px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: rgb(80,116,188);
+}
+
+.title-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0 48 135);
+    color: white;
+    margin: 15px;
     border-radius: 5px;
 }
 
+.title-container h1{
+    font-family: "freight-text-pro-semibold", sans-serif;
+    text-align: center;
+    font-size: 64px;
+    color: white;
+    margin: 0px;
+    margin-bottom: 9px;
+}
+
 .title-container img{
-    float: right;
-    width: 60px;
-    height: auto;
+    position: absolute;
+    right: 0px;
+    width: auto;
+    height: 90px; 
+}
+
+.paragraph1-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.paragraph1-textbox{
+    flex: 1;
+    font-family: "helvetica", sans-serif;
+    background-color: rgb(232, 232, 232);
+    padding: 0px 4px 0px 4px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.paragraph1-textbox h3{
+    margin-left: 4px;
+}
+
+.paragraph1-textbox p{
+    margin-left: 8px;
+}
+
+.conanima-image-1{
+    margin-right: 25px;
 }
