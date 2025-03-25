@@ -25,10 +25,6 @@ a{
     text-decoration: none;
 }
 
-footer{
-    font-family: sans-serif;
-}
-
 .border{
     width: 1000px;
     margin: auto;
@@ -92,7 +88,7 @@ footer{
 
 .paragraph1-container{
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
     gap: 20px;
 }
@@ -103,6 +99,7 @@ footer{
     background-color: rgb(232, 232, 232);
     padding: 0px 4px 0px 4px;
     margin-left: 25px;
+    margin-right: 25px;
     border-radius: 5px;
 }
 
@@ -111,7 +108,7 @@ footer{
 }
 
 .paragraph1-textbox p{
-    margin-left: 8px;
+    margin-left: 4px;
 }
 
 .conanima-image-1{
