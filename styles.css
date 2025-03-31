@@ -104,6 +104,23 @@ a{
     border-radius: 5px;
 }
 
+.enrollment-container{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.enrollment-textbox p{
+    flex: 1;
+    font-family: "helvetica", sans-serif;
+    background-color: rgb(232, 232, 232);
+    padding: 10px 14px 10px 14px;
+    margin-left: 25px;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
 #conanima-image-1{
     margin-right: 25px;
     border-radius: 5px;
