@@ -121,6 +121,10 @@ a{
     border-radius: 5px;
 }
 
+#enrollment-form{
+    margin-right: 25px;
+}
+
 #conanima-image-1{
     margin-right: 25px;
     border-radius: 5px;
@@ -136,6 +140,12 @@ a{
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0 48 135);
+    color: white;
+    margin-top: 30em;
     font-family: "helvetica",sans-serif;
     text-align: center;
     font-size: 10px;
