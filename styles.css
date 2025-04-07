@@ -109,7 +109,6 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .contactsimage{
@@ -128,12 +127,13 @@ iframe{
 }
 
 .contactsimage p{
+    text-wrap: wrap;
     font-family: "helvetica", sans-serif;
     font-size: 15px;
     background-color: rgb(232, 232, 232);
     padding: 10px 10px 10px 10px;
     margin-right: 10px;
-    max-width: 100px;
+    max-width: 200px;
     border-radius: 5px;
 }
 
