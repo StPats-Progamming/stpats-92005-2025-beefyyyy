@@ -116,7 +116,6 @@ iframe{
 .contactsimage{
     display: flex;
     flex-direction: row;
-    text-wrap: wrap;
     align-items: center;
 }
 
@@ -128,7 +127,6 @@ iframe{
 }
 
 .contactsimage p{
-    text-wrap: wrap;
     font-family: "helvetica", sans-serif;
     font-size: 14px;
     background-color: rgb(232, 232, 232);
@@ -148,10 +146,10 @@ iframe{
 }
 
 .enrollment-textbox{
-    flex: 1;
     font-family: "helvetica", sans-serif;
     background-color: rgb(232, 232, 232);
     padding: 0px 4px 0px 14px;
+    width: 300px;
     margin-left: 25px;
     border-radius: 5px;
 }
