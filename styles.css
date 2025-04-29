@@ -91,19 +91,19 @@ iframe{
     height: 90px; 
 }
 
-.paragraph1-container{
+.paragraph-container{
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: space-between;
 }
 
-.paragraph1-container img{
+.paragraph-container img{
     height: auto;
     width: 300px;
 }
 
-.paragraph1-textbox{
+.paragraph-textbox{
     font-family: "helvetica", sans-serif;
     background-color: rgb(232, 232, 232);
     padding: 0px 14px 0px 10px;
@@ -160,18 +160,7 @@ iframe{
 
 .en
 
-.googleform-container{
-    display: flex;
-    justify-content: center;
-    width: 1000px;
-}
-
-#enrollment-form{
-    text-align: center;
-    margin-right: 25px;
-}
-
-#conanima-image-1{
+.conanima-image1{
     display: flex;
     justify-content: center;
     width: 960px;
@@ -180,12 +169,12 @@ iframe{
     border-radius: 5px;
 }
 
-#conanima-image-2{
+#titleimage{
     display: flex;
-    align-self: center;
-    margin-right: 25px;
+    justify-content: center;
+    width: 960px;
     border-radius: 5px;
-    height: auto;
+    margin: auto;
 }
 
 #conanima-image-3{
@@ -201,6 +190,10 @@ iframe{
     align-self: center;
     margin-right: 25px;
     border-radius: 5px;
+}
+
+#googleForm{
+    text-align: center;
 }
 
 #footeremail{
