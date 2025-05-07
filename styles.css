@@ -14,15 +14,14 @@
 }
 
 body{
-    background-color: white;
-    margin-left:60px;
-    margin-right:60px;
+    background-color: rgb(227,237,255);
+    margin: 0px;
 }
 
 iframe{
     width :900px;
     height :1100px;
-    margin-top: 20px;
+    margin-top: 25px;
     border: none;
     background: white;
 }
